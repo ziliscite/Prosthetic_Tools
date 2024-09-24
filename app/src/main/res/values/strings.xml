@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">Prosthetic Tools</string>
+
+    <string name="prosthetic_name">Prosthetic Tool</string>
+    <string name="flavor_text">Description</string>
+
+    <string name="disclaimer">This version is different than what I have submitted to Dicoding</string>
+
+    <string name="about">about</string>
+    <string name="github_email">manzil.akbar@gmail.com</string>
+    <string name="name">Manzil</string>
+
+    <string name="alternative">Alternative Versions:</string>
+
+    <string name="home">Home</string>
+    <string name="share">Share</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+
+    <string-array name="tool_name">
+        <item>Loaded Axe</item>
+        <item>Loaded Shuriken</item>
+        <item>Loaded Spear</item>
+        <item>Loaded Umbrella</item>
+        <item>Flame Vent</item>
+        <item>Shinobi Firecracker</item>
+        <item>Sabimaru</item>
+        <item>Mist Raven</item>
+        <item>Divine Abduction</item>
+        <item>Finger Whistle</item>
+    </string-array>
+
+    <string-array name="tool_flavor_text">
+        <item>A Prosthetic Tool loaded with a heavy Shinobi Axe. Costs Spirit Emblems to use.\n\nThe strength of the Loaded Axe lies in its heft.\n\nOne strike can easily turn a wooden shield into splinters or shred an enemy\'s posture.</item>
+        <item>A Shuriken Wheel Prosthetic Tool, fitted to the Shinobi Prosthetic. Costs Spirit Emblems to use.\n\nPull a shuriken loaded into the wheel and launch it at a target in a single, flowing motion.\n\nThe swiftly thrown shuriken damages enemy Vitality and Posture, particularly against those with a tendency to take to the air.</item>
+        <item>A Prosthetic Tool loaded with Gyoubu\'s Broken Horn. Costs Spirit Emblems to use.\n\nFar-reaching thrust attacks. Lighter enemies struck by the spear may be dragged towards the wielder.\n\nThose of large build will at times force themselves into poorly-fitting armor. Such armor could be torn clean off; coined by Gyoubu as Armor Stripping.</item>
+        <item>A Prosthetic Tool created by fitting an indestructible Iron-ribbed Umbrella to the Arm. Costs Spirit Emblems to use.\n\nWhen spread open, it will protect against attacks from all directions. Hold it out while moving to protect from light attacks.\n\nBut this is an umbrella after all. It won\'t protect you from low attacks such as sweep attacks.</item>
+        <item>A Prosthetic Tool made from a loaded Flame Barrel. Costs Spirit Emblems to use.\n\nDeals fire damage to enemies via a short-range blast of fire while also inflicting Burn status.\n\nIt is difficult to control the rage of those with "Red Eyes" through the power of man alone. They do, however, fear the flame above all else. This tool has the power to make them tremble.</item>
+        <item>A Prosthetic Tool fitted with Robert\'s firecrackers. Costs Spirit Emblems.\n\nUnleashes an explosive flash that briefly blinds foes and inflicts Posture damage on beast-type enemies. Has a wide, frontward field of effect that can impact multiple foes at once.\n\nSuitable for temporarily immobilizing enemies and particularly good for scaring beasts.</item>
+        <item>A Prosthetic Tool made with the blade Sabimaru, allowing for a quick series of attacks together with the sword.\n\nCosts Spirit Emblems to use.\n\nThe blue, poisonous rust on Sabimaru\'s blade applies "Poison" status abnormality. Wielded in wars of old, the blade\'s blue rust was used to drive off inhuman Okami warrior women. Even now, it is likely to be effective against their descendants.</item>
+        <item>A Prosthetic Tool loaded with the feather of a Mist Raven. Costs Spirit Emblems to use.\n\nWhen attacked in the assumed stance, disappear like the mist and move away.\n\nOnce you think you\'ve caught one, all that will remain is feathers.\n\nThat is the mark of a true Mist Raven.</item>
+        <item>A Prosthetic Tool loaded with a large fan. Costs Spirit Emblems to use. Gathers and releases a gust of wind, forcing enemies caught by the vortex to turn around.\n\nIt is a mild sort of being spirited away that can be returned from quite quickly.\n\nHowever, it\'s said that one can only return from being spirited away once, and if taken again, there is no coming back.</item>
+        <item>A Prosthetic Tool created by fitting a slender finger to the prosthetic. Costs Spirit Emblems to use.\n\nIts sound will grab an enemy\'s attention and draw them to the whistle\'s location. By locking on to a target, only the targeted enemy will hear the whistle.\n\nThe sound of the finger whistle enrages beasts, making them unable to distinguish friend from foe.</item>
+    </string-array>
+
+    <integer-array name="tool_photo">
+        <item>@drawable/loaded_axe</item>
+        <item>@drawable/loaded_shuriken</item>
+        <item>@drawable/loaded_spear</item>
+        <item>@drawable/loaded_umbrella</item>
+        <item>@drawable/flame_vent</item>
+        <item>@drawable/shinobi_firecracker</item>
+        <item>@drawable/sabimaru</item>
+        <item>@drawable/mist_raven</item>
+        <item>@drawable/divine_abduction</item>
+        <item>@drawable/finger_whistle</item>
+    </integer-array>
+
+    <string-array name="loaded_axe_upgrades">
+        <item>Spring-load Axe</item>
+        <item>Lazulite Axe</item>
+        <item>Sparking Axe</item>
+    </string-array>
+
+    <string-array name="loaded_axe_upgrades_description">
+        <item>A Loaded Axe reinforced with a spring mechanism. Costs Spirit Emblems to use.\n\nThe strength of the Loaded Axe lies in its heft. The weight allows one to shrug off incoming attacks, and can easily turn a wooden shield into splinters.\n\nStoring and unleashing energy in the spring mechanism allows for large, sweeping attacks depite its weight.</item>
+        <item>A Loaded Axe blessed with the favor of the Fountainhead Lapis Lazuli. Costs Spirit Emblems to use.\n\nThe hefty lazulite blade inflicts damage even on guarding enemies. The sound of the lapis lazuli blade striking home creates a powerful reverberation capable of dispelling enemy illusions.</item>
+        <item>A loaded Axe with an attached percussion hammer to create flame. Costs Spirit Emblems to use.\n\nMetes out attacks bathed in flame from the axe\'s blade. Hitting the sparking percussion hammer causes a violent eruption of flames and increases the effective area of the attack.\n\nThis is both firearm and heavy axe.</item>
+    </string-array>
+
+    <integer-array name="loaded_axe_upgrades_photo">
+        <item>@drawable/spring_load_axe</item>
+        <item>@drawable/lazulite_axe</item>
+        <item>@drawable/sparking_axe</item>
+    </integer-array>
+
+    <string-array name="loaded_shuriken_upgrades">
+        <item>Spinning Shuriken</item>
+        <item>Lazulite Shuriken</item>
+        <item>Gouging Top</item>
+        <item>Phantom Kunai</item>
+        <item>Sen Throw</item>
+    </string-array>
+
+    <string-array name="loaded_shuriken_upgrades_description">
+        <item>An enhanced Shuriken that can be empowered with rotational energy. Costs Spirit Emblems to use.\n\nDamage an enemy\'s Vitality and Posture, and does huge damage to jumping enemies. Taking a moment to further bend the spring and build rotational energy will cause the blade to rotate after landing, damaging the enemy multiple times on hit.\n\nSimilar to a spinning top, but with blades.</item>
+        <item>Shuriken blessed with the favor of the Fountainhead Lapis Lazuli. Costs Spirit Emblems to use.\n\nIts piercing edge heavily damages Vitality, and damages Vitality and Posture even if guarded. These blades do not slow down, even after striking an enemy.\n\nThe lazulite blue trail of light it emits in flight is reminiscent of a shooting star.</item>
+        <item>An enhanced shuriken that pierces enemies with its sharp blades. Costs Spirit Emblems to use.\n\nThese piercing blades retain momentum after landing, and will damage an enemy\'s Vitality and Posture, even if guarded. Taking a moment to further bend the spring, and build rotational energy will cause the blade to rotate after landing, damaging the enemy multiple times on hit.</item>
+        <item>Lady Butterfly\'s kunai, fitted into the shuriken wheel. Costs Spirit Emblems to use.\n\nCreates a special sound when thrown, which causes phantom butterflies to follow the path of the kunai.\n\nThe phantom butterflies chase after enemies and inflict damage even when guarded.</item>
+        <item>A Prosthetic Tool that shoots loaded coin bundles. Costs sen and Spirit Emblems to use. While it lacks a shuriken\'s range, it inflicts far more damage, as the coins hit multiple times. The amount of coins thrown increases depending on how much money one possesses.\n\nBeing rich makes the blast incredibly strong, but an empty purse will shoot nothing but dust.</item>
+    </string-array>
+
+    <integer-array name="loaded_shuriken_upgrades_photo">
+        <item>@drawable/spinning_shuriken</item>
+        <item>@drawable/lazulite_shuriken</item>
+        <item>@drawable/gouging_top</item>
+        <item>@drawable/phantom_kunai</item>
+        <item>@drawable/sen_throw</item>
+    </integer-array>
+
+    <string-array name="loaded_spear_upgrades">
+        <item>Spiral Spear</item>
+        <item>Leaping Flame</item>
+        <item>Loaded Spear Thrust Type</item>
+        <item>Loaded Spear Cleave Type</item>
+    </string-array>
+
+    <string-array name="loaded_spear_upgrades_description">
+        <item>A Loaded Spear with a spiral chiseled into the blade. Costs Spirit Emblems to use.\n\nSharp thrust attacks from this Prosthetic Tool damage an enemy\'s Vitality and Posture, even through their guard.\n\nThe spear\'s spiral creates a corkscrew shockwave that gouges and rends as it penetrates.</item>
+        <item>A Loaded Spear with an attached percussion hammer to create flame. Costs Spirit Emblems to use.\n\nBathe the tip of the Loaded Spear in flames making it a dangerously sharp spear and firearm.\n\nA charged strike of the spear will knock enemies down and consume them in a fiery blaze.</item>
+        <item>A Loaded Spear reinforced with a spring mechanism. Costs Spirit Emblems to use.\n\nUnleash far-reaching thrust attacks. Lighter enemies struck by the spear may be dragged towards the wielder. Can also tear poorly-fitting armor from heavier foes.\n\nStore energy in the spring mechanism and use its momentum for successive and relentless thrust attacks.</item>
+        <item>A Loaded Spear further reinforced with an enhance spring mechanism. Costs Spirit Emblems to use.\n\nUnleash far-reaching thrust attacks. Lighter enemies struck by the spear may be dragged towards the wielder. Can also tear poorly-fitting armor from heavier foes.\n\nStore energy in the spring mechanism for a powerful cleaving attack.</item>
+    </string-array>
+
+    <integer-array name="loaded_spear_upgrades_photo">
+        <item>@drawable/spiral_spear</item>
+        <item>@drawable/leaping_flame</item>
+        <item>@drawable/loaded_spear_thrust_type</item>
+        <item>@drawable/loaded_spear_cleave_type</item>
+    </integer-array>
+
+    <string-array name="loaded_umbrella_upgrades">
+        <item>Loaded Umbrella - Magnet</item>
+        <item>Phoenix\'s Lilac Umbrella</item>
+        <item>Suzaku\'s Lotus Umbrella</item>
+    </string-array>
+
+    <string-array name="loaded_umbrella_upgrades_description">
+        <item>A Loaded Umbrella upgraded with a magnetic mechanism. Costs Spirit Emblems to use.\n\nWhen spread open, it will protect against attacks from all directions. Hold it out while moving to protect from light attacks. Has a tempered magnetic shaft that makes it nearly unbreakable. Enemy attacks can be deflected by spinning the open umbrella.</item>
+        <item>A Loaded Umbrella emblazoned with a purplish-blue phoenix. Costs Spirit Emblems to use.\n\nWhen spread open, it will protect against attacks from all directions. Hold it out while moving to protect from light attacks.\n\nThe blessings of the phoenix fill the umbrella, preventing damage from apparition-type enemies.</item>
+        <item>A Loaded Umbrella emblazoned with a bright red vermilion bird. Costs Spirit Emblems to use.\n\nWhen spread open, it will protect against attacks from all directions. Hold it out while moving to protect from light attacks.\n\nThe blessing of the vermilion bird prevents damage from fire-based attacks, and also prevents buildup of \"Burn\" status.</item>
+    </string-array>
+
+    <integer-array name="loaded_umbrella_upgrades_photo">
+        <item>@drawable/loaded_umbrella_magnet</item>
+        <item>@drawable/phoenixs_lilac_umbrella</item>
+        <item>@drawable/suzakus_lotus_umbrella</item>
+    </integer-array>
+
+    <string-array name="flame_vent_upgrades">
+        <item>Spring-load Flame Vent</item>
+        <item>Okinaga\'s Flame Vent</item>
+        <item>Lazulite Sacred Flame</item>
+    </string-array>
+
+    <string-array name="flame_vent_upgrades_description">
+        <item>A Flame Barrel fitted with a gunpowder-loaded mechanism. Costs Spirit Emblems to use.\n\nDeals damage to enemies with gouts of fire, inflicting Burn status abnormality.\n\nThe spring mechanism can also be charged to release a massive blast of flames and hot air, sending opponents flying.</item>
+        <item>A barrel containing smoldering resin that acts as an explosive catalyst. Costs Spirit Emblems to use.\n\nEmits a short-range flame blast. Continuous fire damage will inflict the Burn status.\n\nIt is able to maintain a continuous stream of flames due to the smoldering resin inside of the tube mechanism.</item>
+        <item>A Flame Barrel blessed with the favor of the Fountainhead Lapis Lazuli. Costs Spirit Emblems to use.\n\nDamages even apparitions with its blazing purple flame. The flame does not, however, inflict Burn status abnormality.\n\nThe sacred lapis lazuli fires are divine. Cleanse the deep-seated hatred with flame.</item>
+    </string-array>
+
+    <integer-array name="flame_vent_upgrades_photo">
+        <item>@drawable/spring_load_flame_vent</item>
+        <item>@drawable/okinagas_flame_vent</item>
+        <item>@drawable/lazulite_sacred_flame</item>
+    </integer-array>
+
+    <string-array name="shinobi_firecracker_upgrades">
+        <item>Long Spark</item>
+        <item>Spring-load Firecracker</item>
+        <item>Purple Fume Spark</item>
+    </string-array>
+
+    <string-array name="shinobi_firecracker_upgrades_description">
+        <item>An upgraded Firecracker using compound gunpowder. Costs Spirit Emblems to use.\n\nCompounded gunpowder is said to have a long spark, and by increasing the proportion of Black Gunpowder the effect can be prolonged for longer than the average Firecracker.\n\nThe flames of the firecrackers bloom for a short while.</item>
+        <item>A Firecracker upgraded with a spring mechanism. Costs Spirit Emblems to use.\n\nUnleashes a loud explosion and bright flash which causes foes to recoil and inflicts Posture damage on beast-type enemies.\n\nCharging up the spring mechanism adds rotational energy when spreading the Firecrackers, affecting enemies in all directions.</item>
+        <item>An upgraded Firecracker that uses a purple, smoke-emitting compound gunpowder.\n\nCosts Spirit Emblems to use. The tweaked compound gunpowder is known as \"Purple Fume Spark\".\n\nThe addition of fatty wax lumps delays the explosion slightly.\n\nEnemies blinded by the blast take slightly more Vitality and Posture damage for a brief period of time.</item>
+    </string-array>
+
+    <integer-array name="shinobi_firecracker_upgrades_photo">
+        <item>@drawable/long_spark</item>
+        <item>@drawable/spring_load_firecracker</item>
+        <item>@drawable/purple_fume_spark</item>
+    </integer-array>
+
+    <string-array name="sabimaru_upgrades">
+        <item>Improved Sabimaru</item>
+        <item>Piercing Sabimaru</item>
+        <item>Lazulite Sabimaru</item>
+    </string-array>
+
+    <string-array name="sabimaru_upgrades_description">
+        <item>An improved Sabimaru with a special mechanism for unleashing the blade. Costs Spirit Emblems to use.\n\nDue to the revised mechanism, one can fluidly swap between two separate sets of attacks as desired.\n\nHas a blue rust poison applied to the blade that eats into enemies\'s defense and inlicts "Poison" status abnormality.</item>
+        <item>A further improved Sabimaru with a finely sharpened blade. Costs Spirit Emblems to use.\n\nRepeated attacks with the newly sharpened edge of the blade will damage an enemy\'s Vitality and Posture, even through their guard.\n\nThe blue rust poison on Sabimaru\'s blade eats its way into enemies and applies Poison status.</item>
+        <item>Sabimaru blessed with the favor of the Fountainhead Lapis Lazuli. Cost Spirit Emblems to use.\n\nThe combination of Lapis Lazuli and the rusted blue blade produces a poisonous mist with every swing.\n\nDissolving the Lapis Lazuli over the blade caused the ancient blue rust to bubble to the blade\'s surface.</item>
+    </string-array>
+
+    <integer-array name="sabimaru_upgrades_photo">
+        <item>@drawable/improved_sabimaru</item>
+        <item>@drawable/piercing_sabimaru</item>
+        <item>@drawable/lazulite_sabimaru</item>
+    </integer-array>
+
+    <string-array name="mist_raven_upgrades">
+        <item>Aged Feather Mist Raven</item>
+        <item>Great Feather Mist Raven</item>
+    </string-array>
+
+    <string-array name="mist_raven_upgrades_description">
+        <item>Mist Raven feathers with notches in the tips. Costs Spirit Embles to use.\n\nDisappear like the mist and move away. Can be performed not only from the assumed stance, but also after taking damage.\n\nThe slight notches in the tips of the feathers give the appearance of an old Mist Raven. They are there to allow one to dissolve into the mist even more easily.</item>
+        <item>Mist Raven fused with crimson feathers. Costs Spirit Emblems to use.\n\nDisappear and displace, like the mist. Can be performed from both the assumed stance and after taking damage. Dyed red to resemble the Great Mist Raven, the feathers vanish in a scorching wake.\n\nThe great raven is a god of the land, and the touch of gods is to be feared.</item>
+    </string-array>
+
+    <integer-array name="mist_raven_upgrades_photo">
+        <item>@drawable/aged_feather_mist_raven</item>
+        <item>@drawable/great_feather_mist_raven</item>
+    </integer-array>
+
+    <string-array name="divine_abduction_upgrades">
+        <item>Golden Vortex</item>
+        <item>Double Divine Abduction</item>
+    </string-array>
+
+    <string-array name="divine_abduction_upgrades_description">
+        <item>A large and withered golden fan. Costs Spirit Emblems to use.\n\nGather illustrious golden wind and release it to force enemies caught up in the vortex to face the other way. Can be performed twice in a row.\n\nEnemies that have been turned around drop items or money, to be considered "donations".</item>
+        <item>A large fan that creates a vortex of wind. Costs Spirit Emblems to use.\n\nGathers and releases a gust of wind, forcing enemies caught by the blast to turn around. Can be waved twice in succession. It is a mild sort of being spirited away that can be returned from quite quickly.\n\nHowever, it\'s said that one can only return from being spirited away once, and if taken again, there is no coming back.</item>
+    </string-array>
+
+    <integer-array name="divine_abduction_upgrades_photo">
+        <item>@drawable/golden_vortex</item>
+        <item>@drawable/double_divine_abduction</item>
+    </integer-array>
+
+    <string-array name="finger_whistle_upgrades">
+        <item>Malcontent</item>
+        <item>Mountain Echo</item>
+    </string-array>
+
+    <string-array name="finger_whistle_upgrades_description">
+        <item>Finger Whistle reinforced with the Malcontent\'s ring. Costs Spirit Emblems to use. Can be used to drive beasts mad, and to torment apparition-type enemies.\n\n"Kingfisher" is etched onto the ring. The Kingfisher\'s cry could be heard along the waterfront of Sunken Valley. Now, she cries no more. </item>
+        <item>A finger whistle that can create an echo effect. Costs Spirit Emblems to use.\n\nIts sound will grab an enemy\'s attention and draw them to the whistle\'s location. By locking on to a target, only the targeted enemy will hear the whistle.\n\nTaking a deep breath before performing a whistle allows for the sound to be delayed.</item>
+    </string-array>
+
+    <integer-array name="finger_whistle_upgrades_photo">
+        <item>@drawable/malcontent</item>
+        <item>@drawable/mountain_echo</item>
+    </integer-array>
+</resources>

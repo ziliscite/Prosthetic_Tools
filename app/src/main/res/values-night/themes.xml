@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProstheticTools" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryContainer">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="android:background">@color/backgroundColor</item>
+        <item name="android:text">@color/textColor</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
